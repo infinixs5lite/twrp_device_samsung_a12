@@ -25,6 +25,8 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export LC_ALL="C"
 	export ALLOW_MISSING_DEPENDENCIES=true
 
+chmod a+x device/samsung/a12/mkbootimg
+
 # TWRP/OFR flags (Common)
 export TW_DEFAULT_LANGUAGE="en"
 export FOX_VERSION="R13.1"
