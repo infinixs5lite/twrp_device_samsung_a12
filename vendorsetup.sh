@@ -49,7 +49,7 @@ export OF_STATUS_INDENT_RIGHT="34"
 export OF_STATUS_INDENT_LEFT="34"
 export FOX_ADVANCED_SECURITY="1"
 export OF_FLASHLIGHT_ENABLE="1"
-export OF_FL_PATH1="/sys/class/backlight/panel/max_brightness"
+export OF_FL_PATH="/sys/class/backlight/panel/max_brightness"
 export OF_FL_PATH1="/sys/class/backlight/panel/brightness"
 export FOX_USE_NANO_EDITOR="0"
 export FOX_USE_BASH_SHELL="1"
@@ -60,7 +60,7 @@ export OF_SCREEN_H="2340"
 
 # Build type && Maintainer flags
 export FOX_BUILD_TYPE="Stable"
-export OF_MAINTAINER="kelvin"
+export FOX_MAINTAINER="kelvin"
 
 # MediaTek
 	export FOX_RECOVERY_INSTALL_PARTITION="/dev/block/platform/bootdevice/by-name/recovery"
