@@ -29,8 +29,6 @@ chmod a+x device/samsung/a12/mkbootimg
 
 # TWRP/OFR flags (Common)
 export TW_DEFAULT_LANGUAGE="en"
-export FOX_VERSION="R13.1"
-export FOX_R13="1"
 export TARGET_ARCH="arm64"
 
 # Device-specific flags
@@ -57,10 +55,6 @@ export FOX_USE_TAR_BINARY="1"
 export FOX_USE_XZ_UTILS="1"
 export FOX_ASH_IS_BASH="1"
 export OF_SCREEN_H="2340"
-
-# Build type && Maintainer flags
-export FOX_BUILD_TYPE="Stable"
-export OF_MAINTAINER="kelvin"
 
 # MediaTek
 	export FOX_RECOVERY_INSTALL_PARTITION="/dev/block/platform/bootdevice/by-name/recovery"
