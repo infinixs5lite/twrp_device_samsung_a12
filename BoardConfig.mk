@@ -171,3 +171,7 @@ TW_NO_LEGACY_PROPS := true
 TW_NO_BIND_SYSTEM := true
 TW_NO_SCREEN_BLANK := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
+
+# Torch
+PB_TORCH_PATH := /sys/class/backlight/panel/max_brightness
+PB_TORCH_PATH1= /sys/class/backlight/panel/brightness
