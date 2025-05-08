@@ -173,6 +173,8 @@ TW_NO_SCREEN_BLANK := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 
 # Torch
+PB_DISABLE_DEFAULT_DM_VERITY := true
 PB_TORCH_PATH := "/sys/class/backlight/panel/max_brightness"
-PB_TORCH_PATH1= "/sys/class/backlight/panel/brightness"
+PB_TORCH_PATH1 = "/sys/class/backlight/panel/brightness"
 PB_TORCH_MAX_BRIGHTNESS := 1
+PB_TORCH_PATH2 := "/sys/devices/virtual/camera/flash/rear_flash"
