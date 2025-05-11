@@ -21,8 +21,8 @@ PRODUCT_RELEASE_NAME := a12
 # Inherit from common AOSP config
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
-# Inherit some common PBRP stuff.
-$(call inherit-product, vendor/pb/config/common.mk)
+# Inherit some common TWRP stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
@@ -34,7 +34,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(DEVICE_PATH)/recovery/root,recovery/root)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := pb_a12
+PRODUCT_NAME := tw_a12
 PRODUCT_DEVICE := a12
 PRODUCT_MODEL := SM-A125F
 PRODUCT_BRAND := samsung
