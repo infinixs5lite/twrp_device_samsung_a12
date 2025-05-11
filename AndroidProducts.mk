@@ -15,6 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/pb_a12.mk
+	$(LOCAL_DIR)/tw_a12.mk
 
-COMMON_LUNCH_CHOICES := pb_a12-eng
+COMMON_LUNCH_CHOICES := tw_a12-eng
