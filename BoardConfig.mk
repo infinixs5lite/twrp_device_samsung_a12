@@ -173,9 +173,13 @@ TW_NO_BIND_SYSTEM := true
 TW_NO_SCREEN_BLANK := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 
-# Torch
-PB_DISABLE_DEFAULT_DM_VERITY := true
-PB_TORCH_PATH := "/sys/class/backlight/panel/max_brightness"
-PB_TORCH_PATH1 = "/sys/class/backlight/panel/brightness"
+# Compression
+BOARD_RAMDISK_USE_LZMA := true
+
+# Making the recovery.img smaller
+BOARD_HAS_NO_REAL_SDCARD := true
+
+# PB 
+PB_DISABLE_DEFAULT_DM_VERITY =true
 PB_TORCH_MAX_BRIGHTNESS := 1
-PB_TORCH_PATH2 := "/sys/devices/virtual/camera/flash/rear_flash"
+PB_TORCH_PATH := "/sys/devices/virtual/camera/flash/rear_flash"
