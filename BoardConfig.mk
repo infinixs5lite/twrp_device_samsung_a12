@@ -180,8 +180,3 @@ BOARD_RAMDISK_USE_LZMA := true
 
 # Making the recovery.img smaller
 BOARD_HAS_NO_REAL_SDCARD := true
-
-# PB 
-PB_DISABLE_DEFAULT_DM_VERITY =true
-PB_TORCH_MAX_BRIGHTNESS := 1
-PB_TORCH_PATH := "/sys/devices/virtual/camera/flash/rear_flash"
